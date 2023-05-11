@@ -1,0 +1,68 @@
+@import url(fonts.css);
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+
+html {
+  scroll-behavior: smooth;
+  }
+
+:root{
+    --MainColor: #EAE7DC;
+    --FirstBgColor: #f0e1e6;
+    --FirstColor: #8427b6;
+    --Secondcolor: #441bb5;
+    --White: #ffffff;
+    --Black: #3d3d3d;
+    --Aqua: #e5e6fa;
+}
+
+.body{
+  background: #e7d6e9;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer{
+  display: flex;
+  margin-top: 100px;
+  border-radius: 10px;
+  background: var(--Black);
+}
+
+.services{
+  height: 700px;
+  margin-top: 100px;
+
+  background: var(--FirstBgColor);
+  border-radius: 10px;
+}
+
+.languages {
+    position: relative;
+    margin-top: -2px;
+    margin-left: 30px;
+  }
+  
+  .languages__list {
+    position: absolute;
+    top: 17px;
+  
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .languages__item {
+    display: none;
+  }
+  
+  .languages__item--active,
+  .languages__item--show {
+    display: block;
+  }
+  
+  .languages__item--active{
+    order: 0;
+  }
+  

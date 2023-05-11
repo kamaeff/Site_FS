@@ -1,0 +1,223 @@
+.main{
+    margin-top: 30px;
+}
+
+.main__img{
+    position: absolute;
+    border-radius: 10px;
+    z-index: -10;
+}
+
+.main__text {
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.main__text--title {
+    width: 600px;
+    font-family: "Open Sans Bold", Arial, Helvetica, sans-serif;
+    font-size: 50px;
+
+    color: var(--White);
+    
+}
+
+.main__text--subtitle {
+    width: 600px;
+    font-family: "Open Sans Regular", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: var(--White);
+}
+
+.main__personal {
+    margin-top: 350px;
+}
+
+.main__personal--img {
+    position: absolute;
+    border-radius: 10px;
+    z-index: -10;
+}
+
+.main__personal_container{
+    display: grid;
+    margin-left: 50px;
+    padding-top: 485px;
+}
+
+.main__personal_container--title {
+    width: 800px;
+
+    padding-left: 20px;
+
+    font-family: "Open Sans Bold", Arial, Helvetica, sans-serif;
+    font-size: 40px;
+
+    background: var(--Secondcolor);
+    border-radius: 20px;
+    color: var(--Aqua);
+    
+}
+
+.main__personal_container--btn {
+    cursor: pointer;
+    width: 300px;
+
+    margin-top: -10px;
+    padding: 10px 0px 10px 0px;
+
+    font-family: "Open Sans Regular", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+
+    border-radius: 20px;
+    color: var(--Aqua);
+    border: 1px solid var(--Aqua);
+    background: var(--Secondcolor);
+
+    text-decoration: none;
+
+}
+
+.main__personal_container--btn:hover{
+    background: var(--Aqua);
+    color: var(--Secondcolor);
+    border: 1px solid var(--Secondcolor);
+}
+
+.main__services--title {
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    font-family: "Open Sans Bold", Arial, Helvetica, sans-serif;
+    font-size: 40px;
+
+    color: var(--Secondcolor);
+    background: var(--Aqua);
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+.main__services_container {
+    display: grid;
+    grid-template-columns: repeat(2, 565px);
+    gap: 10px;
+
+    margin-top: 100px;
+
+    align-items: center;
+}
+
+.services__container_item {
+    width: 556px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+
+    background: var(--Aqua);
+
+    border-radius: 15px;
+} 
+
+
+.services__container_item--title {
+    width: 300px;
+    margin-left: 30px;
+
+    font-family: "Open Sans Regular", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: var(--black);
+}
+
+.services__container_item--price {
+    width: 150px;
+    margin-right: 65px;
+
+    font-family: "Open Sans Regular", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: var(--bgBlue);
+}
+
+.services__container_item--btn {
+    width: 150px;
+    cursor: pointer;
+    padding: 8px 16px;
+
+    font-family: "Open Sans Regular", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+
+
+    color: var(--gray);
+    background: none;
+    border: 1px solid var(--Secondcolor);
+    border-radius: 10px;
+}
+
+.services__container_item--btn:hover{
+    background: var(--Secondcolor);
+    color: var(--Aqua);
+}
+
+
+.services__time-count {
+    display: gird;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.time-count__title {
+    font-family: "Open Sans Bold", Arial, Helvetica, sans-serif;
+    font-size: 40px;
+
+    color: var(--Secondcolor);
+}
+
+.time-count__content {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.time-count__item {
+    font-family: "Open Sans Regular", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--Secondcolor);
+}
+
+.time-count__val {
+    font-family: "Open Sans Regular", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--Secondcolor);
+}
+
+.time-count__text {
+    font-family: "Open Sans Regular", Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 24px;
+    color: var(--Secondcolor);
+}
+
+.time-count__separator {
+}
+
+.time-count__hours {
+}
+
+.time-count__minutes {
+}
+
+.time-count__seconds {
+}

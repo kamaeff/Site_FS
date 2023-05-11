@@ -1,0 +1,130 @@
+.leftside {
+    width: 500px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.leftside__title {
+    font-family: "Open Sans Bold", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: var(--FirstBgColor);
+}
+
+.leftside__email_form {
+    width: 430px;
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    border-bottom: 1px solid var(--FirstBgColor);
+}
+
+.leftside__email_form-input {
+    outline: 0 !important;
+
+    padding-right: 202px;
+    
+  
+    font-family: "Open Sans Regular", Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    background: none;
+    border: var(--FirstColor);
+    
+}
+
+.leftside__email_form-btn {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.leftside__text {
+    margin-top: 50px;
+    font-family: "Open Sans Regular", Arial, Helvetica, sans-serif;
+    color: var(--White);
+}
+
+.leftside__copirate {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-family: "Open Sans Regular", Arial, Helvetica, sans-serif;
+    color: var(--White);
+}
+
+.rightside {
+    margin-top: 50px;
+}
+
+.rightside__links_nav {
+    display: flex;
+    gap: 20px;
+}
+
+.rightside__links_nav li{
+    list-style: none;
+}
+
+.rightside__links_nav a{
+    cursor: pointer;
+    font-family: "Open Sans Regular", Arial, Helvetica, sans-serif;
+    color: var(--White);
+    text-decoration: none;
+}
+
+.li_animation:hover {
+    scale: 1.05;  
+}
+
+.rightside__banks {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    justify-content: center;
+}
+.rightside__social {
+    display: grid;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightside__social--title {
+    font-family: "Open Sans Regular", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: var(--White);
+}
+
+.social__container {
+    display: grid;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.social__container--number {
+    font-family: "Open Sans Regular", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: var(--White);    
+}
+
+.social__container_media {
+    display: flex;
+    align-items: center;
+    font-family: "Open Sans Regular", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: var(--White); 
+    gap: 20px;
+}
+
+.container__media--inst {
+    cursor: pointer;
+}
+
+.container__media--vk {
+    cursor: pointer;
+}
+
+.social__container--gmail {
+    font-family: "Open Sans Regular", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: var(--White); 
+}
