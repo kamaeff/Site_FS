@@ -1,0 +1,119 @@
+﻿.footet_logo-pos{
+    width: 5em;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer_list {
+    padding: 30px;
+    border-radius: 20px;
+}
+.footer_list-title {
+    width: 155px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: 'Roboto',sans-serif,serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+
+    border-bottom: 2px dashed rgba(156,199,158,1);
+}
+.nav_ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav_ul a {
+    font-family: 'Roboto',sans-serif,serif;
+    text-align: center;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+
+    text-decoration: none;
+    color: black;
+}
+
+.nav_ul a:hover {
+    color: #fcba30;
+    border-bottom: 2px dashed #fcba30;
+}
+
+.footer_newsletter {
+    background: #DCDCDC;
+    display: grid;
+    padding: 30px 20px;
+    margin-left: auto;
+    margin-right: 300px;
+    border-radius: 20px;
+    text-align:center;
+}
+
+.footer_newsletter-title {
+    width: 85px;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    font-family: 'Roboto',sans-serif,serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom: 2px dashed rgba(156,199,158,1);
+}
+.footer_newsletter-subtitle {
+    margin-top: 15px;
+    font-family: 'Roboto',sans-serif,serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer_newsletter-form {
+    width: 600px;
+    display: flex;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.form_input {
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    outline: 0 !important;
+    
+    font-family: 'Roboto',sans-serif,serif;
+    font-style: normal;
+    font-size: 16px;
+
+    border: none;
+    border-radius: 20px;
+}
+.form_btn {
+    cursor: pointer;
+    outline: 0;
+    border: none;
+    background: none;
+}
+
+.footer_social-copirate {
+    font-family: 'Roboto',sans-serif,serif;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.footer_social-container{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    justify-content:center;
+}
+.footer_social-container img{
+    cursor: pointer;
+}

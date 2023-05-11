@@ -1,0 +1,28 @@
+@import url('math_header.css');
+@import url('math_main.css');
+@import url('math_footer.css');
+
+
+.body {
+    background: linear-gradient(219deg,
+    #186cb8 19%,
+    transparent 19%,transparent 20%,
+    #2a9a9f 20%, #2a9a9f  39%,
+    transparent 39%,transparent 40%,
+    #f1b211 40%,#f1b211 59% ,
+    transparent 59%,transparent 60%,
+    #e83611 60%, #e83611 79%,
+    transparent 79%, transparent 80%,
+    #f9002f 80%);
+}
+
+.logo{
+    padding: 5px;
+
+    font-family: 'Roboto',sans-serif,serif;
+    font-size: 30px;
+    background: linear-gradient(90deg, rgba(156,199,158,1) 0%, rgba(225,227,151,1) 44%, rgba(164,255,0,1) 100%);
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
